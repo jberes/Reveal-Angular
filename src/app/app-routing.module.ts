@@ -8,7 +8,7 @@ import { NewDashboardComponent } from './new-dashboard/new-dashboard.component';
 import { ViewDashboardComponent } from './view-dashboard/view-dashboard.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'new-dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: 'view-dashboard', pathMatch: 'full' },
   { path: 'error', component: UncaughtErrorComponent },
   { path: 'new-dashboard', component: NewDashboardComponent, data: { text: 'NewDashboard' } },
   { path: 'view-dashboard', component: ViewDashboardComponent, data: { text: 'ViewDashboard' } },
